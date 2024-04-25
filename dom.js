@@ -1,7 +1,6 @@
 // Part 1
+let root = document;
 const mainEl = document.querySelector("main");
-console.log(mainEl);
-mainEl.classList.add("--main-bg");
 console.log(mainEl);
 mainEl.style.backgroundColor = "var(--main-bg)";
 const h1 = document.createElement("h1");
